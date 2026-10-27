@@ -116,6 +116,7 @@
           </div>
         </div>
         <a href="#contact" class="relative py-2 hover:text-brand active:opacity-70">Contact Us</a>
+        <a href="#quote" class="spring inline-flex items-center h-12 px-6 rounded-full bg-amber text-ink font-semibold tracking-[.06em] shadow-amber hover:bg-amber-dark hover:-translate-y-0.5 active:translate-y-0 active:opacity-90">Get a Quote</a>
       </nav>
 
       <button id="menu-btn" class="lg:hidden w-11 h-11 grid place-items-center rounded-md text-ink hover:bg-mist active:bg-line" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-nav">
@@ -145,7 +146,8 @@
       <div class="grain"></div>
 
       <div class="relative max-w-site mx-auto px-5 lg:px-0 pt-[64px] pb-[120px] lg:pt-[96px] lg:pb-[150px] grid lg:grid-cols-[1fr_460px] gap-14 lg:gap-[80px] items-center">
-        <div>
+        <div class="relative pl-7 sm:pl-12 py-8 sm:py-10">
+          <span class="absolute left-0 inset-y-0 w-16 sm:w-24 border-l-[5px] border-y-[5px] sm:border-l-[6px] sm:border-y-[6px] border-amber" aria-hidden="true"></span>
           <p class="inline-flex items-center gap-3 rounded-full border border-white/15 bg-white/[.04] pl-2 pr-4 py-1.5 text-[13px] font-medium uppercase tracking-[.12em] text-white/80">
             <span class="w-7 h-7 rounded-full bg-amber grid place-items-center text-ink">
               <svg class="w-4 h-4" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M2.5 14V5L4 3l1.5 2v9zM7.25 14V4l.75-1.5L8.75 4v10zM10.5 14V5L12 3l1.5 2v9z"/><rect x="1.5" y="7" width="13" height="1.4"/><rect x="1.5" y="11" width="13" height="1.4"/></svg>
@@ -219,29 +221,157 @@
       </svg>
     </section>
 
-    <!-- Intro + What we offer -->
+    <!-- Photo tiles -->
+    <section class="bg-mist">
+      <div class="max-w-site mx-auto px-5 lg:px-0 pt-[56px] lg:pt-[64px] grid sm:grid-cols-3 gap-6">
+        <a href="#services" class="group block shadow-card active:opacity-90">
+          <span class="block relative h-[220px] lg:h-[260px] overflow-hidden">
+            <img src="brand_assets/fence-3.jpeg" alt="Green steel fence and gate" class="absolute inset-0 w-full h-full object-cover spring group-hover:scale-105" />
+            <span class="absolute inset-0 bg-brand/15 mix-blend-multiply"></span>
+            <span class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></span>
+          </span>
+          <span class="flex items-center justify-between bg-brand group-hover:bg-brand-deep text-white px-6 py-5 font-semibold text-[17px]">
+            Steel &amp; Palisade
+            <svg class="w-5 h-5 text-amber spring group-hover:translate-x-1" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+          </span>
+        </a>
+        <a href="#services" class="group block shadow-card active:opacity-90">
+          <span class="block relative h-[220px] lg:h-[260px] overflow-hidden">
+            <img src="brand_assets/fence-4.jpeg" alt="Curved steel screen around a pool" class="absolute inset-0 w-full h-full object-cover spring group-hover:scale-105" />
+            <span class="absolute inset-0 bg-brand/15 mix-blend-multiply"></span>
+            <span class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></span>
+          </span>
+          <span class="flex items-center justify-between bg-brand group-hover:bg-brand-deep text-white px-6 py-5 font-semibold text-[17px]">
+            Screening &amp; Custom Work
+            <svg class="w-5 h-5 text-amber spring group-hover:translate-x-1" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+          </span>
+        </a>
+        <a href="#quote" class="group block shadow-card active:opacity-90">
+          <span class="block relative h-[220px] lg:h-[260px] overflow-hidden">
+            <img src="brand_assets/fence-2.jpeg" alt="Our team installing steel on site" class="absolute inset-0 w-full h-full object-cover spring group-hover:scale-105" />
+            <span class="absolute inset-0 bg-brand/15 mix-blend-multiply"></span>
+            <span class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></span>
+          </span>
+          <span class="flex items-center justify-between bg-brand group-hover:bg-brand-deep text-white px-6 py-5 font-semibold text-[17px]">
+            Supply &amp; Installation
+            <svg class="w-5 h-5 text-amber spring group-hover:translate-x-1" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+          </span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Intro -->
     <section id="about" class="bg-mist scroll-mt-24">
-      <div class="max-w-site mx-auto px-5 lg:px-0 py-[64px] lg:py-[76px] grid lg:grid-cols-[1fr_416px] gap-12 lg:gap-[48px] items-start">
+      <div class="max-w-site mx-auto px-5 lg:px-0 py-[64px] lg:py-[96px] grid lg:grid-cols-[1fr_520px] gap-14 lg:gap-[64px] items-center">
         <div>
           <p class="text-brand text-[15px] lg:text-[18px] font-medium uppercase tracking-[.05em]">Here to help with all your fencing needs</p>
-          <h2 class="h-section text-[26px] sm:text-[30px] lg:text-[36px] mt-5 lg:mt-6 max-w-[680px]">Strong, reliable fences for homes and businesses</h2>
+          <h2 class="h-section text-[26px] sm:text-[30px] lg:text-[36px] mt-5 lg:mt-6 max-w-[620px]">Strong, reliable fences for homes and businesses</h2>
           <span class="rule mt-6"></span>
-          <p class="mt-8 max-w-[770px]">Precision Fencing Pretoria has been a trusted name in the fencing industry for years. Our mission is simple: durable fencing that meets high standards of quality and customer satisfaction, customised to each client&rsquo;s property, security needs and budget.</p>
-
-          <h3 id="services" class="scroll-mt-28 mt-12 font-semibold text-[#333]">What We Offer</h3>
-          <ul class="mt-6 space-y-3 list-disc pl-10 marker:text-[#333]">
-            <li><strong class="font-semibold text-ink">Supply &amp; installation:</strong> quality materials, professionally installed.</li>
-            <li><strong class="font-semibold text-ink">Steel fences:</strong> palisade and mesh styles that are durable, secure, low maintenance and versatile.</li>
-            <li><strong class="font-semibold text-ink">Mesh fencing:</strong> unobstructed views with strong security for residential, commercial and agricultural properties, including chain link.</li>
-            <li><strong class="font-semibold text-ink">Clearview fencing:</strong> closely spaced vertical wires that resist climbing and cutting, in high-quality steel with a neat look.</li>
-            <li><strong class="font-semibold text-ink">Palisade fencing:</strong> hot-dip galvanised steel, bolt-on or welded, for commercial and industrial perimeters.</li>
-            <li><strong class="font-semibold text-ink">Razor wire:</strong> added to existing fences, legally compliant, at the correct height and properly fastened.</li>
-            <li><strong class="font-semibold text-ink">Electric fencing:</strong> a harmless deterrent shock that integrates with your alarm and cameras.</li>
+          <p class="mt-8 max-w-[640px]">Precision Fencing Pretoria has been a trusted name in the fencing industry for years. Our mission is simple: durable fencing that meets high standards of quality and customer satisfaction, customised to each client&rsquo;s property, security needs and budget.</p>
+          <ul class="mt-8 space-y-3.5 font-semibold text-ink">
+            <li class="flex items-center gap-3"><svg class="w-5 h-5 text-brand shrink-0" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 8.5 3 3 7-7"/></svg>Skilled, experienced technicians</li>
+            <li class="flex items-center gap-3"><svg class="w-5 h-5 text-brand shrink-0" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 8.5 3 3 7-7"/></svg>Top-grade, weather-resistant materials</li>
+            <li class="flex items-center gap-3"><svg class="w-5 h-5 text-brand shrink-0" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 8.5 3 3 7-7"/></svg>Custom solutions, including coatings</li>
+            <li class="flex items-center gap-3"><svg class="w-5 h-5 text-brand shrink-0" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 8.5 3 3 7-7"/></svg>Workmanship guarantee</li>
           </ul>
+          <a href="tel:+27828153262" class="group mt-10 sm:ml-6 inline-block relative bg-brand-deep text-white px-7 py-6 shadow-float spring hover:-translate-y-1 active:translate-y-0 on-green">
+            <span class="absolute -left-2 -top-2 w-10 h-10 border-l-4 border-t-4 border-amber" aria-hidden="true"></span>
+            <span class="block font-semibold text-[17px]">Need a fence? Talk to us.</span>
+            <span class="flex items-center gap-3 mt-1.5 text-[30px] lg:text-[34px] font-bold tracking-[-0.02em]">
+              <svg class="w-6 h-6 text-amber spring group-hover:-rotate-12" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.6a1 1 0 0 1-.25 1z"/></svg>
+              082 815 3262
+            </span>
+            <span class="block mt-1 text-[14.5px] text-white/75">Call for professional service and expert advice.</span>
+          </a>
         </div>
-        <figure class="relative overflow-hidden lg:mt-[2px] aspect-[4/5] lg:aspect-auto lg:h-[554px] shadow-card">
-          <img src="brand_assets/fence-2.jpeg" alt="Our team installing steel posts beside a brick wall" class="absolute inset-0 w-full h-full object-cover" />
-        </figure>
+
+        <!-- Overlapping photo pair -->
+        <div class="relative h-[440px] sm:h-[520px]">
+          <figure class="absolute right-0 top-0 w-[78%] h-[78%] overflow-hidden shadow-card">
+            <img src="brand_assets/fence-2.jpeg" alt="Our team installing steel posts beside a brick wall" class="absolute inset-0 w-full h-full object-cover" />
+            <div class="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
+          </figure>
+          <figure class="absolute left-0 bottom-0 w-[58%] h-[52%] overflow-hidden border-[8px] border-mist shadow-float">
+            <img src="brand_assets/fence-4.jpeg" alt="Curved steel screen fence around a pool" class="absolute inset-0 w-full h-full object-cover" />
+          </figure>
+          <span class="absolute right-[-12px] bottom-[18%] w-24 h-24 border-r-[5px] border-b-[5px] border-amber" aria-hidden="true"></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="bg-white scroll-mt-24">
+      <div class="max-w-site mx-auto px-5 lg:px-0 py-[64px] lg:py-[96px] grid lg:grid-cols-[260px_1fr] gap-10 lg:gap-[56px]">
+        <div class="relative bg-brand text-white overflow-hidden min-h-[180px] lg:min-h-0 flex lg:items-end p-8 on-green">
+          <div class="absolute inset-0 opacity-[.08]" aria-hidden="true" style="background-image: repeating-linear-gradient(90deg, #fff 0 1px, transparent 1px 14px);"></div>
+          <div class="grain"></div>
+          <p class="relative lg:[writing-mode:vertical-rl] lg:rotate-180 font-bold uppercase leading-none tracking-[.02em]">
+            <span class="text-amber text-[64px] lg:text-[96px]">7</span>
+            <span class="text-[34px] lg:text-[52px]"> Fence Systems</span>
+          </p>
+        </div>
+        <div>
+          <p class="text-brand text-[15px] lg:text-[18px] font-medium uppercase tracking-[.05em]">What we offer</p>
+          <h2 class="h-section text-[26px] sm:text-[30px] lg:text-[36px] mt-5">Explore our services</h2>
+          <span class="rule mt-6"></span>
+          <p class="mt-6 max-w-[640px]">Every fence is supplied and professionally installed by our own team, using quality materials.</p>
+          <div class="mt-10 grid sm:grid-cols-2 xl:grid-cols-3 gap-5">
+            <article class="group flex flex-col bg-mist border-t-[3px] border-brand p-7 spring hover:-translate-y-1 hover:shadow-card">
+              <svg class="w-9 h-9 text-brand spring group-hover:-rotate-6" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 28V11l3-4 3 4v17M14.5 28V11l3-4 3 4v17M23 28V11l3-4 3 4v17"/><path d="M3 15h28M3 23h28"/></svg>
+              <h3 class="mt-5 text-[19px] font-semibold text-ink">Steel Fences</h3>
+              <p class="mt-2 text-[15px] text-[#555]">Palisade and mesh styles that are durable, secure, low maintenance and versatile.</p>
+              <ul class="mt-4 space-y-2 text-[14.5px] font-semibold text-brand"><li class="flex items-center gap-2"><svg class="w-4 h-4 text-brand shrink-0" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 8.5 3 3 7-7"/></svg>Durable &amp; secure</li><li class="flex items-center gap-2"><svg class="w-4 h-4 text-brand shrink-0" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 8.5 3 3 7-7"/></svg>Low maintenance</li></ul>
+              <a href="#quote" class="mt-auto pt-6 inline-flex items-center gap-2 text-[14.5px] font-semibold text-ink hover:text-brand active:opacity-70">Get a quote
+                <svg class="w-4 h-4 spring group-hover:translate-x-1" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+              </a>
+            </article>
+            <article class="group flex flex-col bg-mist border-t-[3px] border-brand p-7 spring hover:-translate-y-1 hover:shadow-card">
+              <svg class="w-9 h-9 text-brand spring group-hover:-rotate-6" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="4" width="24" height="24" rx="2"/><path d="m4 12 8-8M4 20 20 4M4 28 28 4M12 28l16-16M20 28l8-8M12 4l16 16M4 4l24 24M4 12l16 16M4 20l8 8M20 4l8 8"/></svg>
+              <h3 class="mt-5 text-[19px] font-semibold text-ink">Mesh Fencing</h3>
+              <p class="mt-2 text-[15px] text-[#555]">Unobstructed views with strong security for residential, commercial and agricultural properties.</p>
+              <ul class="mt-4 space-y-2 text-[14.5px] font-semibold text-brand"><li class="flex items-center gap-2"><svg class="w-4 h-4 text-brand shrink-0" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 8.5 3 3 7-7"/></svg>Clear, open views</li><li class="flex items-center gap-2"><svg class="w-4 h-4 text-brand shrink-0" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 8.5 3 3 7-7"/></svg>Chain link available</li></ul>
+              <a href="#quote" class="mt-auto pt-6 inline-flex items-center gap-2 text-[14.5px] font-semibold text-ink hover:text-brand active:opacity-70">Get a quote
+                <svg class="w-4 h-4 spring group-hover:translate-x-1" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+              </a>
+            </article>
+            <article class="group flex flex-col bg-mist border-t-[3px] border-brand p-7 spring hover:-translate-y-1 hover:shadow-card">
+              <svg class="w-9 h-9 text-brand spring group-hover:-rotate-6" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4v24M9 4v24M13 4v24M17 4v24M21 4v24M25 4v24M3 10h26M3 22h26"/></svg>
+              <h3 class="mt-5 text-[19px] font-semibold text-ink">Clearview Fencing</h3>
+              <p class="mt-2 text-[15px] text-[#555]">Closely spaced vertical wires in high-quality steel, with a neat, modern look.</p>
+              <ul class="mt-4 space-y-2 text-[14.5px] font-semibold text-brand"><li class="flex items-center gap-2"><svg class="w-4 h-4 text-brand shrink-0" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 8.5 3 3 7-7"/></svg>Resists climbing &amp; cutting</li><li class="flex items-center gap-2"><svg class="w-4 h-4 text-brand shrink-0" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 8.5 3 3 7-7"/></svg>Neat finish</li></ul>
+              <a href="#quote" class="mt-auto pt-6 inline-flex items-center gap-2 text-[14.5px] font-semibold text-ink hover:text-brand active:opacity-70">Get a quote
+                <svg class="w-4 h-4 spring group-hover:translate-x-1" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+              </a>
+            </article>
+            <article class="group flex flex-col bg-mist border-t-[3px] border-brand p-7 spring hover:-translate-y-1 hover:shadow-card">
+              <svg class="w-9 h-9 text-brand spring group-hover:-rotate-6" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 28V8l-2-3h4l-2 3M13 28V8l-2-3h4l-2 3M20 28V8l-2-3h4l-2 3M27 28V8l-2-3h4l-2 3"/><path d="M3 13h27M3 23h27"/></svg>
+              <h3 class="mt-5 text-[19px] font-semibold text-ink">Palisade Fencing</h3>
+              <p class="mt-2 text-[15px] text-[#555]">Strong steel pales for commercial and industrial perimeters.</p>
+              <ul class="mt-4 space-y-2 text-[14.5px] font-semibold text-brand"><li class="flex items-center gap-2"><svg class="w-4 h-4 text-brand shrink-0" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 8.5 3 3 7-7"/></svg>Hot-dip galvanised</li><li class="flex items-center gap-2"><svg class="w-4 h-4 text-brand shrink-0" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 8.5 3 3 7-7"/></svg>Bolt-on or welded</li></ul>
+              <a href="#quote" class="mt-auto pt-6 inline-flex items-center gap-2 text-[14.5px] font-semibold text-ink hover:text-brand active:opacity-70">Get a quote
+                <svg class="w-4 h-4 spring group-hover:translate-x-1" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+              </a>
+            </article>
+            <article class="group flex flex-col bg-mist border-t-[3px] border-brand p-7 spring hover:-translate-y-1 hover:shadow-card">
+              <svg class="w-9 h-9 text-brand spring group-hover:-rotate-6" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="8" cy="16" r="5"/><circle cx="16" cy="16" r="5"/><circle cx="24" cy="16" r="5"/><path d="m6 9-1-3M14 9l1-3M22 9l-1-3M10 23l1 3M18 23l-1 3M26 23l1 3"/></svg>
+              <h3 class="mt-5 text-[19px] font-semibold text-ink">Razor Wire</h3>
+              <p class="mt-2 text-[15px] text-[#555]">Added to existing fences for an extra layer of protection.</p>
+              <ul class="mt-4 space-y-2 text-[14.5px] font-semibold text-brand"><li class="flex items-center gap-2"><svg class="w-4 h-4 text-brand shrink-0" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 8.5 3 3 7-7"/></svg>Legally compliant</li><li class="flex items-center gap-2"><svg class="w-4 h-4 text-brand shrink-0" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 8.5 3 3 7-7"/></svg>Correct height &amp; fastening</li></ul>
+              <a href="#quote" class="mt-auto pt-6 inline-flex items-center gap-2 text-[14.5px] font-semibold text-ink hover:text-brand active:opacity-70">Get a quote
+                <svg class="w-4 h-4 spring group-hover:translate-x-1" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+              </a>
+            </article>
+            <article class="group flex flex-col bg-mist border-t-[3px] border-brand p-7 spring hover:-translate-y-1 hover:shadow-card">
+              <svg class="w-9 h-9 text-brand spring group-hover:-rotate-6" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 3 7 18h8l-2 11 12-16h-8z"/></svg>
+              <h3 class="mt-5 text-[19px] font-semibold text-ink">Electric Fencing</h3>
+              <p class="mt-2 text-[15px] text-[#555]">A harmless deterrent shock that keeps intruders out.</p>
+              <ul class="mt-4 space-y-2 text-[14.5px] font-semibold text-brand"><li class="flex items-center gap-2"><svg class="w-4 h-4 text-brand shrink-0" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 8.5 3 3 7-7"/></svg>Safe, effective deterrent</li><li class="flex items-center gap-2"><svg class="w-4 h-4 text-brand shrink-0" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 8.5 3 3 7-7"/></svg>Alarm &amp; camera integration</li></ul>
+              <a href="#quote" class="mt-auto pt-6 inline-flex items-center gap-2 text-[14.5px] font-semibold text-ink hover:text-brand active:opacity-70">Get a quote
+                <svg class="w-4 h-4 spring group-hover:translate-x-1" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+              </a>
+            </article>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -493,18 +623,23 @@
         </ul>
       </div>
       <div>
-        <h2 class="text-[20px] uppercase tracking-[.08em] text-ink">Why Us</h2>
+        <h2 class="text-[20px] uppercase tracking-[.08em] text-ink">Request a Call Back</h2>
         <div class="relative mt-3 h-px bg-line"><span class="absolute left-0 -top-px w-10 h-[2px] bg-brand"></span></div>
-        <ul class="mt-7 space-y-[11px] text-[#444]">
-          <li>Skilled Technicians</li>
-          <li>Weather-Resistant Materials</li>
-          <li>Custom Solutions</li>
-          <li>Workmanship Guarantee</li>
-        </ul>
+        <p class="mt-7 leading-[1.7] text-[#444]">Leave your number and we&rsquo;ll get back to you about your fence.</p>
+        <form id="callback-form" class="mt-5 space-y-3" novalidate>
+          <label class="sr-only" for="callback-phone">Your phone number</label>
+          <input id="callback-phone" class="field bg-white" type="tel" name="phone" required placeholder="Your phone number" autocomplete="tel" />
+          <button type="submit" class="w-full spring h-[52px] rounded-full bg-brand text-white font-semibold uppercase tracking-[.06em] text-[14.5px] shadow-btn hover:bg-brand-dark hover:-translate-y-0.5 active:translate-y-0 active:bg-brand-deep">Call Me Back</button>
+        </form>
       </div>
     </div>
     <div class="bg-brand text-white text-center text-[14.5px] py-[11px]">&copy; <span id="year">2026</span> Precision Fencing Pretoria</div>
   </footer>
+
+  <!-- Back to top -->
+  <a id="to-top" href="#top" class="spring fixed right-[26px] bottom-[96px] z-50 w-12 h-12 grid place-items-center bg-brand-deep text-white shadow-float opacity-0 translate-y-3 pointer-events-none hover:bg-brand active:scale-95" aria-label="Back to top">
+    <svg class="w-5 h-5" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 13V3M4 7l4-4 4 4"/></svg>
+  </a>
 
   <!-- Floating WhatsApp -->
   <a href="https://wa.me/27828153262" target="_blank" rel="noopener" class="group fixed right-5 bottom-5 z-50 w-[60px] h-[60px] rounded-full bg-[#25D366] text-white grid place-items-center shadow-float spring hover:scale-110 active:scale-95 focus-visible:outline-[#25D366]" aria-label="Chat with us on WhatsApp">
@@ -524,6 +659,24 @@
     };
     menuBtn.addEventListener('click', () => setMenu(!mobileNav.classList.contains('open')));
     mobileNav.querySelectorAll('a').forEach((a) => a.addEventListener('click', () => setMenu(false)));
+
+    const toTop = document.getElementById('to-top');
+    const toggleToTop = () => {
+      const show = window.scrollY > 600;
+      toTop.classList.toggle('opacity-0', !show);
+      toTop.classList.toggle('translate-y-3', !show);
+      toTop.classList.toggle('pointer-events-none', !show);
+    };
+    window.addEventListener('scroll', toggleToTop, { passive: true });
+    toggleToTop();
+
+    document.getElementById('callback-form').addEventListener('submit', (e) => {
+      e.preventDefault();
+      const phone = e.target.phone;
+      if (!phone.value.trim()) { phone.focus(); return; }
+      const text = `Please call me back about fencing on ${phone.value.trim()}`;
+      window.open(`https://wa.me/27828153262?text=${encodeURIComponent(text)}`, '_blank', 'noopener');
+    });
 
     // No backend yet: the quote form opens WhatsApp with the request filled in.
     document.getElementById('quote-form').addEventListener('submit', (e) => {
