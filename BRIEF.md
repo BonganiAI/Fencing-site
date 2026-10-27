@@ -8,8 +8,8 @@ Build it in this folder and push it to the private repo https://github.com/Bonga
 
 - Follow `~/Downloads/CLAUDE.md`: a single `index.html`, Tailwind via CDN, served on localhost, screenshot comparison rounds.
 - The `frontend-design` skill that CLAUDE.md mentions is not installed.
-- `gh` 2.103.3 is installed at `~/.local/bin/gh` but is not signed in yet.
-  The user must run `gh auth login` once before anything can be pushed (the repo is private).
+- `gh` 2.103.3 is installed at `~/.local/bin/gh` and signed in as BonganiAI (since 2026-10-27),
+  with git set up to use it, so commits can be pushed to `main` directly.
 
 ## Screenshots (in `reference/`, ignored by git)
 - `ironmanworks-customised-fencing.png`: the design to match (1440px wide, full page).
